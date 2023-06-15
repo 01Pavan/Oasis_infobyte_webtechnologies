@@ -1,0 +1,169 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #ff4e50;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Hero Section */
+header {
+  background-color: #feca57;
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+header p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* About Section */
+#about {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #48dbfb;
+  color: #fff;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #9a99a3;
+  color: #fff;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 120px;
+}
+
+form button {
+  background-color: #ff4e50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #ff3336;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
